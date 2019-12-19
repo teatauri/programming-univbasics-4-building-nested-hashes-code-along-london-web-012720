@@ -14,7 +14,14 @@ def first_challenge
          age: "15",
          status: "alive"
        },
-       hero_friends: {}
+       :hero_friends => [
+         {name: "Benvolio",
+           age: "17",
+           attitude: "worried"}
+         {name: "Mercutio",
+           age: "18",
+           attitude: "hot-headed"}
+         ]
      },
      capulet: {
        patriarch: {
@@ -30,7 +37,14 @@ def first_challenge
          age: "15",
          status: "alive"
        },
-       heroine_friends: {}
+       :heroine_friends => [
+         {name: "Benvolio",
+           age: "17",
+           attitude: "worried"}
+         {name: "Mercutio",
+           age: "18",
+           attitude: "hot-headed"}
+         ]
      }
    }
 end
